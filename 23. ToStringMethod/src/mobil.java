@@ -10,7 +10,7 @@ class Mobil3{
 public class mobil {
     public static void main(String[] args) {
         var obj = new Mobil3("Avanza");
-        System.out.println(obj);
+        System.out.println(obj); //sebenarnyya obj.toString()
     }
 
 }

@@ -11,6 +11,7 @@ class Darat extends Hewan{
         this.jenis = "Darat";
     }
     void salam(){
+        super.salam();
         System.out.println("salam() dipanggil CHILD");
     }
 }
